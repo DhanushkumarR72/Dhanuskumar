@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>MY Profile</title>
+        <style type="text/css">
+*
+{
+    padding:0;
+    margin:0;
+    font-family: sans-seriff;
+    box-sizing: border-box;
+}
+.hero
+{
+    height:100%;
+    width:100%;
+    background-image: url("circuit-technology-background-with-hi-tech-digital_29971-549.avif");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display:flex;
+    align-items:center;
+    padding-left:10%;
+    padding right:10%;
+}
+nav ul
+{
+    display:flex;
+    float:right;
+}
+nav ul li{
+    padding:10px 20px;
+}
+.name
+{
+    color:white;
+    font-size:30px;
+}
+nav ul li a{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+}
+.btn
+{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+    border-radius:40px;
+    text-decoration:none;
+}
+.content
+{
+top: 75;
+left:50;
+position:absolute;
+transform:translate(50%,50%)    
+}
+h3
+{
+    color:pink;
+}
+h2{
+    color:white;
+}
+h4{
+    color:white;
+}
+.subscribe form{
+    width:400px;
+    position:relative;
+}
+.subscribe form input:first-child{
+    display:inline-block;
+    width:100%;
+    padding:15px 120px 13px 14px;
+    border:3px solid red;
+    border-radius:40px;
+}
+.subscribe form input:last-child{
+    display:inline-block;
+    padding:10px 30px;
+    border:none;
+    background-color:red;
+    color:white;
+    top:7px;
+    right:7px;
+    border-radius:40px;
+    float:right;
+    position:absolute;
+   box-shadow:0px 0px 10px black;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="hero">
+            <h2 class="name">DhanushKumar Ramasamy</h2>
+            <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about_me.html">About me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    <a href="#" class="btn">Subscribe</a>
+    </nav>
+    <div class="content">
+        <h3>Hello My Name is</h3>
+        <h2>DhanushKumar R</h2>
+        <h4>I'm a web developer</h4>
+        <div class="subscribe">
+            <form>
+                <input type="text" placeholdre="Enter your Name">
+                <input type="submit" name="submit" value="let's start">
+            </form>
+
+        </div>
+    </div>
+        </div>
+    </body>
+</html>
